@@ -1,0 +1,1885 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-07T11:41:52</date>
+  <millis>1494182512648</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.RuntimeException: No OpenGL context found in the current thread.</message>
+  <exception>
+    <message>java.lang.RuntimeException: No OpenGL context found in the current thread.</message>
+    <frame>
+      <class>org.lwjgl.opengl.GLContext</class>
+      <method>getCapabilities</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.lwjgl.opengl.GL11</class>
+      <method>glBegin</method>
+      <line>680</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Block</class>
+      <method>&lt;init&gt;</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>&lt;init&gt;</method>
+      <line>22</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>43</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-07T11:42:14</date>
+  <millis>1494182534861</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.RuntimeException: No OpenGL context found in the current thread.</message>
+  <exception>
+    <message>java.lang.RuntimeException: No OpenGL context found in the current thread.</message>
+    <frame>
+      <class>org.lwjgl.opengl.GLContext</class>
+      <method>getCapabilities</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.lwjgl.opengl.GL11</class>
+      <method>glBegin</method>
+      <line>680</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Block</class>
+      <method>&lt;init&gt;</method>
+      <line>10</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>&lt;init&gt;</method>
+      <line>22</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>43</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-07T11:43:10</date>
+  <millis>1494182590534</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.RuntimeException: No OpenGL context found in the current thread.</message>
+  <exception>
+    <message>java.lang.RuntimeException: No OpenGL context found in the current thread.</message>
+    <frame>
+      <class>org.lwjgl.opengl.GLContext</class>
+      <method>getCapabilities</method>
+      <line>124</line>
+    </frame>
+    <frame>
+      <class>org.lwjgl.opengl.GL11</class>
+      <method>glBegin</method>
+      <line>680</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>&lt;init&gt;</method>
+      <line>22</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>49</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T08:42:16</date>
+  <millis>1494949336623</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.NullPointerException</message>
+  <exception>
+    <message>java.lang.NullPointerException</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>createTexCube</method>
+      <line>164</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>88</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>60</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T09:32:23</date>
+  <millis>1494952343709</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.RuntimeException: Uncompilable source code - Erroneous tree type: edu.cpp.cs.cs445.danger_doge.SimplexNoise</message>
+  <exception>
+    <message>java.lang.RuntimeException: Uncompilable source code - Erroneous tree type: edu.cpp.cs.cs445.danger_doge.SimplexNoise</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>29</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T10:17:10</date>
+  <millis>1494955030335</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>103</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T10:17:44</date>
+  <millis>1494955064910</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>104</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T10:20:15</date>
+  <millis>1494955215467</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>104</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T10:20:24</date>
+  <millis>1494955224645</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>104</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T10:21:44</date>
+  <millis>1494955304013</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>104</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>gameLoop</method>
+      <line>186</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>140</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:07:41</date>
+  <millis>1494958061916</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:07:46</date>
+  <millis>1494958066423</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:07:53</date>
+  <millis>1494958073058</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>gameLoop</method>
+      <line>186</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>140</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:19:34</date>
+  <millis>1494958774197</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:19:53</date>
+  <millis>1494958793078</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:20:00</date>
+  <millis>1494958800249</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:20:13</date>
+  <millis>1494958813521</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>105</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T11:24:50</date>
+  <millis>1494959090885</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.NegativeArraySizeException</message>
+  <exception>
+    <message>java.lang.NegativeArraySizeException</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.SimplexNoise</class>
+      <method>&lt;init&gt;</method>
+      <line>30</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>87</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T16:08:10</date>
+  <millis>1494976090238</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>gameLoop</method>
+      <line>186</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>140</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T16:08:44</date>
+  <millis>1494976124660</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2017-05-16T16:08:57</date>
+  <millis>1494976137847</millis>
+  <sequence>0</sequence>
+  <logger>edu.cpp.cs.cs445.danger_doge.Main</logger>
+  <level>SEVERE</level>
+  <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+  <method>main</method>
+  <thread>1</thread>
+  <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+  <exception>
+    <message>java.lang.ArrayIndexOutOfBoundsException: 30</message>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>rebuildMesh</method>
+      <line>106</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Chunk</class>
+      <method>&lt;init&gt;</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>&lt;init&gt;</method>
+      <line>25</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Camera</class>
+      <method>getInstance</method>
+      <line>70</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>run</method>
+      <line>139</line>
+    </frame>
+    <frame>
+      <class>edu.cpp.cs.cs445.danger_doge.Main</class>
+      <method>main</method>
+      <line>70</line>
+    </frame>
+  </exception>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
