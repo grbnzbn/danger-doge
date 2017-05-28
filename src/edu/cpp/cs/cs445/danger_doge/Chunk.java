@@ -109,7 +109,7 @@ public class Chunk {
      * @param startZ: starting z coord for chunk
      */
     public void rebuildMesh(float startX, float startY, float startZ) {
-        noise = new SimplexNoise(10, 0.04, r.nextInt());   // using next int to generate random seed
+        noise = new SimplexNoise(20, 0.2, r.nextInt());   // using next int to generate random seed
         VBOColorHandle = glGenBuffers();
         VBOVertexHandle = glGenBuffers();
         VBOTextureHandle = glGenBuffers();  // Grab textures
@@ -118,15 +118,88 @@ public class Chunk {
         FloatBuffer VertexTextureData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE)* 6 * 12);
         for (float x = 0; x < CHUNK_SIZE; x += 1) {
             for (float z = 0; z < CHUNK_SIZE; z += 1) {
-                int i = (int) (startX + x * ((CHUNK_SIZE - startX)));
-                int j = (int) (startZ + z * ((CHUNK_SIZE - startZ)));
-                
-                float noiseHeight = Math.abs(startY + (int) (100 * noise.getNoise(i, j)));  // Generate height from noise function
-                if (noiseHeight > 30) noiseHeight = 30;     // max cap
-                if (noiseHeight < 1) noiseHeight = 1;       // min cap
+                float noiseHeight = ((int)startY + (int)(15 * noise.getNoise((int) x, (int) startY, (int) z)) * CUBE_LENGTH) + 10;
+                if (noiseHeight > 30) noiseHeight = 30; // hard ceil
                 System.out.println(noiseHeight);
                 
-                for (float y = 0; y < noiseHeight; y++) {     // change to our randomized height here
+                for (float y = 0; y < noiseHeight; y++) {     // randomized height
+                    if (y == 0) { // bottom layer handling
+                        if (r.nextFloat() < 0.4f) { // 30% stone at bottom
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Stone);                            
+                        }
+                        
+                        else if (r.nextFloat() < 0.1f) { // 10% dirt at bottom
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Dirt);                            
+                        }
+                        
+                        else {  // rest bedrock
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Bedrock);
+                        }
+                    }
+                    
+                    else if (y == noiseHeight - 1) {    // top layer handling
+                        if (r.nextFloat() < 0.4f) { // 30% sand
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Sand);                            
+                        }
+                        
+                        else if (r.nextFloat() < 0.1f) { // 10% water
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Water);                            
+                        }
+                        
+                        else {  // rest grass
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Grass);
+                        }
+                    }
+                  
+                    else {  // everything inbetween
+                        if (r.nextFloat() < 0.5) {  // half stone
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Stone);  
+                        }
+                        
+                        else {  // half dirt
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Dirt);   
+                        }                        
+                    }
+                    
+                    VertexPositionData.put(createCube((float) (startX + x * CUBE_LENGTH), (float)(y * CUBE_LENGTH + (int)(CHUNK_SIZE * .8)),
+                                                      (float) (startZ + z * CUBE_LENGTH)));
+                    VertexColorData.put(createCubeVertexCol(getCubeColor(Blocks[(int) x][(int) y][(int) z])));
+                    VertexTextureData.put(createTexCube((float) 0, (float) 0, Blocks[(int)(x)][(int) (y)][(int) (z)]));
+                }
+            }
+        }
+        VertexColorData.flip();
+        VertexPositionData.flip();
+        VertexTextureData.flip();
+        glBindBuffer(GL_ARRAY_BUFFER, VBOVertexHandle);
+        glBufferData(GL_ARRAY_BUFFER, VertexPositionData, GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        glBindBuffer(GL_ARRAY_BUFFER, VBOColorHandle);
+        glBufferData(GL_ARRAY_BUFFER, VertexColorData, GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        
+        glBindBuffer(GL_ARRAY_BUFFER, VBOTextureHandle);
+        glBufferData(GL_ARRAY_BUFFER, VertexTextureData, GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+    }
+    
+    public void rebuildWithDiamonds(float startX, float startY, float startZ) {
+        noise = new SimplexNoise(20, 0.2, r.nextInt());   // using next int to generate random seed
+        VBOColorHandle = glGenBuffers();
+        VBOVertexHandle = glGenBuffers();
+        VBOTextureHandle = glGenBuffers();  // Grab textures
+        FloatBuffer VertexPositionData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE) * 6 * 12);
+        FloatBuffer VertexColorData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE) * 6 * 12);
+        FloatBuffer VertexTextureData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE)* 6 * 12);
+        for (float x = 0; x < CHUNK_SIZE; x += 1) {
+            for (float z = 0; z < CHUNK_SIZE; z += 1) {
+                float noiseHeight = ((int)startY + (int)(15 * noise.getNoise((int) x, (int) startY, (int) z)) * CUBE_LENGTH) + 10;
+                if (noiseHeight > 30) noiseHeight = 30; // hard ceil
+                System.out.println(noiseHeight);
+                
+                for (float y = 0; y < noiseHeight; y++) {     // randomized height
+                    Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Diamond); 
+                    
                     VertexPositionData.put(createCube((float) (startX + x * CUBE_LENGTH), (float)(y * CUBE_LENGTH + (int)(CHUNK_SIZE * .8)),
                                                       (float) (startZ + z * CUBE_LENGTH)));
                     VertexColorData.put(createCubeVertexCol(getCubeColor(Blocks[(int) x][(int) y][(int) z])));
@@ -418,7 +491,40 @@ public class Chunk {
                 x + offset*2, y + offset*1,
                 x + offset*1, y + offset*1,
                 x + offset*1, y + offset*2,
-                x + offset*2, y + offset*2 };
+                x + offset*2, y + offset*2  };
+                
+                case 9: // DIAMONDS!!
+                return new float[] {
+                // BOTTOM QUAD(DOWN=+Y)
+                x + offset*3, y + offset*4,
+                x + offset*2, y + offset*4,
+                x + offset*2, y + offset*3,
+                x + offset*3, y + offset*3,
+                // TOP!
+                x + offset*3, y + offset*4,
+                x + offset*2, y + offset*4,
+                x + offset*2, y + offset*3,
+                x + offset*3, y + offset*3,
+                // FRONT QUAD
+                x + offset*3, y + offset*4,
+                x + offset*2, y + offset*4,
+                x + offset*2, y + offset*3,
+                x + offset*3, y + offset*3,
+                // BACK QUAD
+                x + offset*3, y + offset*4,
+                x + offset*2, y + offset*4,
+                x + offset*2, y + offset*3,
+                x + offset*3, y + offset*3,
+                // LEFT QUAD
+                x + offset*3, y + offset*3,
+                x + offset*2, y + offset*3,
+                x + offset*2, y + offset*4,
+                x + offset*3, y + offset*4,
+                // RIGHT QUAD
+                x + offset*3, y + offset*3,
+                x + offset*2, y + offset*3,
+                x + offset*2, y + offset*4,
+                x + offset*3, y + offset*4 };
         }
         
         return new float[] { 1, 1, 1 };

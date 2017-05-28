@@ -245,6 +245,10 @@ public class Camera {
         if (Keyboard.isKeyDown(Keyboard.KEY_LSHIFT)){
             camera.moveDown(speed);
         }  
+        
+        if (Keyboard.isKeyDown(Keyboard.KEY_F1)){
+            chunk.rebuildWithDiamonds(0, 0, 0);
+        }  
     }
     
     /**
