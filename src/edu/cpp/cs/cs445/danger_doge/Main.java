@@ -17,11 +17,15 @@ import java.util.logging.FileHandler;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 import org.lwjgl.input.Keyboard;
 import org.lwjgl.opengl.Display;
 import org.lwjgl.opengl.DisplayMode;
 import static org.lwjgl.opengl.GL11.*;
 import org.lwjgl.util.glu.GLU;
+
+import java.nio.FloatBuffer;
+import org.lwjgl.BufferUtils;
 
 public class Main {
 
@@ -33,6 +37,9 @@ public class Main {
     
     private DisplayMode displayMode;
     private Camera camera;
+    
+    private FloatBuffer lightPosition;
+    private FloatBuffer whiteLight;
     
     /**
      * Main: constructor
@@ -98,6 +105,18 @@ public class Main {
         Display.setTitle("Fill Polygon");
         Display.create();
     }
+    
+    /**
+     * 
+     */
+    
+    private void initLightArrays(){
+        lightPosition = BufferUtils.createFloatBuffer(4);
+        lightPosition.put(0.0f).put(0.0f).put(0.0f).put(1.0f).flip();
+        
+        whiteLight = BufferUtils.createFloatBuffer(4);
+        whiteLight.put(1.0f).put(1.0f).put(1.0f).put(0.0f).flip();
+    }
         
     /**
      * destroy: Helper method for destroying the display
@@ -129,6 +148,17 @@ public class Main {
         // Initializing things for Textures
         glEnable(GL_TEXTURE_2D);
         glEnableClientState (GL_TEXTURE_COORD_ARRAY);
+        
+        //Initializing things for Lighting
+        initLightArrays();
+        glLight(GL_LIGHT0, GL_POSITION, lightPosition);
+        glLight(GL_LIGHT0, GL_SPECULAR, whiteLight);
+        glLight(GL_LIGHT0, GL_DIFFUSE, whiteLight);
+        glLight(GL_LIGHT0, GL_AMBIENT, whiteLight);
+        
+        glEnable(GL_LIGHTING);
+        glEnable(GL_LIGHT0);
+        
     }
     
     /**
