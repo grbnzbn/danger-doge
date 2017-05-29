@@ -107,12 +107,12 @@ public class Main {
     }
     
     /**
+     * initLightArrays: initializes the light source's initial position
      * 
-     */
-    
+     */    
     private void initLightArrays(){
         lightPosition = BufferUtils.createFloatBuffer(4);
-        lightPosition.put(0.0f).put(0.0f).put(0.0f).put(1.0f).flip();
+        lightPosition.put(1.0f).put(1.0f).put(1.0f).put(1.0f).flip();
         
         whiteLight = BufferUtils.createFloatBuffer(4);
         whiteLight.put(1.0f).put(1.0f).put(1.0f).put(0.0f).flip();
@@ -151,13 +151,14 @@ public class Main {
         
         //Initializing things for Lighting
         initLightArrays();
-        glLight(GL_LIGHT0, GL_POSITION, lightPosition);
-        glLight(GL_LIGHT0, GL_SPECULAR, whiteLight);
-        glLight(GL_LIGHT0, GL_DIFFUSE, whiteLight);
-        glLight(GL_LIGHT0, GL_AMBIENT, whiteLight);
+        glLight(GL_LIGHT1, GL_POSITION, lightPosition);
+        glLight(GL_LIGHT1, GL_SPECULAR, whiteLight);
+        glLight(GL_LIGHT1, GL_DIFFUSE, whiteLight);
+        glLight(GL_LIGHT1, GL_AMBIENT, whiteLight);
+        
         
         glEnable(GL_LIGHTING);
-        glEnable(GL_LIGHT0);
+        glEnable(GL_LIGHT1);
         
     }
     

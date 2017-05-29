@@ -32,6 +32,8 @@ public class Camera {
     private float yaw = 0.0f;  
     private float pitch = 0.0f;
     
+    private FloatBuffer lightPosition= BufferUtils.createFloatBuffer(4);
+    
     
     
     /**
@@ -108,7 +110,7 @@ public class Camera {
         position.z += zOffset;
         
         //Lighting movement
-        FloatBuffer lightPosition= BufferUtils.createFloatBuffer(4);
+        
         lightPosition.put(lPosition.x-=xOffset).put(lPosition.y).put(lPosition.z+=zOffset).put(1.0f).flip();
         glLight(GL_LIGHT0, GL_POSITION, lightPosition);        
     }
@@ -125,8 +127,8 @@ public class Camera {
         position.z -= zOffset;
         
         //Lighting movement
-        FloatBuffer lightPosition= BufferUtils.createFloatBuffer(4);
-        lightPosition.put(lPosition.x-=xOffset).put(lPosition.y).put(lPosition.z+=zOffset).put(1.0f).flip();
+       
+        lightPosition.put(lPosition.x+=xOffset).put(lPosition.y).put(lPosition.z-=zOffset).put(1.0f).flip();
         glLight(GL_LIGHT0, GL_POSITION, lightPosition);
     }
     
@@ -143,7 +145,7 @@ public class Camera {
         position.z += zOffset;
         
         //Lighting movement
-        FloatBuffer lightPosition= BufferUtils.createFloatBuffer(4);
+        
         lightPosition.put(lPosition.x-=xOffset).put(lPosition.y).put(lPosition.z+=zOffset).put(1.0f).flip();
         glLight(GL_LIGHT0, GL_POSITION, lightPosition);
     }
@@ -161,7 +163,7 @@ public class Camera {
         position.z += zOffset;
         
         //Lighting movement
-        FloatBuffer lightPosition= BufferUtils.createFloatBuffer(4);
+        
         lightPosition.put(lPosition.x-=xOffset).put(lPosition.y).put(lPosition.z+=zOffset).put(1.0f).flip();
         glLight(GL_LIGHT0, GL_POSITION, lightPosition);
     }
