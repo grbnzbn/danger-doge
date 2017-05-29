@@ -278,9 +278,13 @@ public class Camera {
             camera.moveDown(speed);
         }  
         
-        if (Keyboard.isKeyDown(Keyboard.KEY_F1)){
+        if (Keyboard.isKeyDown(Keyboard.KEY_F2)){
             chunk.rebuildWithDiamonds(0, 0, 0);
         }  
+        
+        if (Keyboard.isKeyDown(Keyboard.KEY_F1)){
+            chunk.rebuildWithCaverns(0, 0, 0);
+        } 
     }
     
     /**

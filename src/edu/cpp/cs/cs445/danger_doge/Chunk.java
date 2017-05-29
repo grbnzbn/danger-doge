@@ -181,6 +181,8 @@ public class Chunk {
         glBindBuffer(GL_ARRAY_BUFFER, VBOTextureHandle);
         glBufferData(GL_ARRAY_BUFFER, VertexTextureData, GL_STATIC_DRAW);
         glBindBuffer(GL_ARRAY_BUFFER, 0);
+        
+        System.out.println("finished generating terrain");
     }
     
     public void rebuildWithDiamonds(float startX, float startY, float startZ) {
@@ -194,7 +196,7 @@ public class Chunk {
         for (float x = 0; x < CHUNK_SIZE; x += 1) {
             for (float z = 0; z < CHUNK_SIZE; z += 1) {
                 float noiseHeight = ((int)startY + (int)(15 * noise.getNoise((int) x, (int) startY, (int) z)) * CUBE_LENGTH) + 10;
-                if (noiseHeight > 30) noiseHeight = 30; // hard ceil
+                if (noiseHeight > CHUNK_SIZE) noiseHeight = CHUNK_SIZE; // hard ceil
                 System.out.println(noiseHeight);
                 
                 for (float y = 0; y < noiseHeight; y++) {     // randomized height
@@ -220,6 +222,109 @@ public class Chunk {
         glBindBuffer(GL_ARRAY_BUFFER, VBOTextureHandle);
         glBufferData(GL_ARRAY_BUFFER, VertexTextureData, GL_STATIC_DRAW);
         glBindBuffer(GL_ARRAY_BUFFER, 0);
+    }
+    
+    public void rebuildWithCaverns(float startX, float startY, float startZ) {
+        SimplexNoise baseNoise = new SimplexNoise(10, 0.15, r.nextInt());   // generating the base terrain for the cavern
+        SimplexNoise cavNoise = new SimplexNoise(10, 0.2, r.nextInt());   // for generating empty space for the cavern
+        SimplexNoise surfaceNoise = new SimplexNoise(10, 0.2, r.nextInt());   // for generating the surface terrain after the cavern
+        
+        VBOColorHandle = glGenBuffers();
+        VBOVertexHandle = glGenBuffers();
+        VBOTextureHandle = glGenBuffers();  // Grab textures
+        FloatBuffer VertexPositionData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE) * 6 * 12);
+        FloatBuffer VertexColorData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE) * 6 * 12);
+        FloatBuffer VertexTextureData = BufferUtils.createFloatBuffer((CHUNK_SIZE * CHUNK_SIZE * CHUNK_SIZE)* 6 * 12);
+        for (float x = 0; x < CHUNK_SIZE; x += 1) {
+            for (float z = 0; z < CHUNK_SIZE; z += 1) {
+                float baseHeight = ((int)startY + (int)(15 * baseNoise.getNoise((int) x, (int) startY, (int) z)) * CUBE_LENGTH) + 10;
+                float cavernHeight = ((int)startY + (int)(15 * cavNoise.getNoise((int) x, (int) startY, (int) z)) * CUBE_LENGTH) + 20;
+                float surfaceHeight = ((int)startY + (int)(15 * surfaceNoise.getNoise((int) x, (int) startY, (int) z)) * CUBE_LENGTH) + 30;
+                System.out.println("Base: " + baseHeight);
+                System.out.println("Cav: " + cavernHeight);
+                System.out.println("Surf: " + surfaceHeight);
+                
+                if (surfaceHeight >= 60) surfaceHeight = 59;
+                
+                for (float y = 0; y < baseHeight; y++) {     // randomized height
+                    if (y == 0) { // bottom layer handling
+                        if (r.nextFloat() < 0.4f) { // 30% stone at bottom
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Stone);                            
+                        }
+                        
+                        else if (r.nextFloat() < 0.1f) { // 10% dirt at bottom
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Dirt);                            
+                        }
+                        
+                        else {  // rest bedrock
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Bedrock);
+                        }
+                    }
+                   
+                    else {  // everything inbetween
+                        if (r.nextFloat() < 0.8) {  // 80% stone
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Stone);  
+                        }
+                        
+                        else {  // rest dirt
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Dirt);   
+                        }                        
+                    }
+                    
+                    VertexPositionData.put(createCube((float) (startX + x * CUBE_LENGTH), (float)(y * CUBE_LENGTH + (int)(CHUNK_SIZE * .8)),
+                                                      (float) (startZ + z * CUBE_LENGTH)));
+                    VertexColorData.put(createCubeVertexCol(getCubeColor(Blocks[(int) x][(int) y][(int) z])));
+                    VertexTextureData.put(createTexCube((float) 0, (float) 0, Blocks[(int)(x)][(int) (y)][(int) (z)]));
+                }
+                    
+                for (float y = cavernHeight; y < surfaceHeight; y++) { 
+                    if (y == surfaceHeight - 1) {    // top layer handling
+                        if (r.nextFloat() < 0.4f) { // 30% sand
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Sand);                            
+                        }
+
+                        else if (r.nextFloat() < 0.1f) { // 10% water
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Water);                            
+                        }
+
+                        else {  // rest grass
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Grass);
+                        }
+                    }
+
+                    else {  // everything inbetween
+                        if (r.nextFloat() < 0.5) {  // half stone
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Stone);  
+                        }
+
+                        else {  // half dirt
+                            Blocks[(int) x][(int) y][(int) z].setType(Block.BlockType.BlockType_Dirt);   
+                        }                        
+                    }
+                
+                    VertexPositionData.put(createCube((float) (startX + x * CUBE_LENGTH), (float)(y * CUBE_LENGTH + (int)(CHUNK_SIZE * .8)),
+                                                      (float) (startZ + z * CUBE_LENGTH)));
+                    VertexColorData.put(createCubeVertexCol(getCubeColor(Blocks[(int) x][(int) y][(int) z])));
+                    VertexTextureData.put(createTexCube((float) 0, (float) 0, Blocks[(int)(x)][(int) (y)][(int) (z)]));
+                }
+            }
+        }
+        VertexColorData.flip();
+        VertexPositionData.flip();
+        VertexTextureData.flip();
+        glBindBuffer(GL_ARRAY_BUFFER, VBOVertexHandle);
+        glBufferData(GL_ARRAY_BUFFER, VertexPositionData, GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        glBindBuffer(GL_ARRAY_BUFFER, VBOColorHandle);
+        glBufferData(GL_ARRAY_BUFFER, VertexColorData, GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        
+        glBindBuffer(GL_ARRAY_BUFFER, VBOTextureHandle);
+        glBufferData(GL_ARRAY_BUFFER, VertexTextureData, GL_STATIC_DRAW);
+        glBindBuffer(GL_ARRAY_BUFFER, 0);
+        
+        System.out.println("finished generating terrain");
+        
     }
     
     /**
