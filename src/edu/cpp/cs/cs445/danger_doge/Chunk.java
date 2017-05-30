@@ -4,8 +4,8 @@ package edu.cpp.cs.cs445.danger_doge;
  * Authors: Tom Lundeberg, Daniel Gamboa, Kevin Grossi, & Isolde Alfaro
  * Class: CS 445 - Computer Graphics
  * 
- * Assignment: Final Project - Checkpoint 2
- * Date last modified: May 18, 2017
+ * Assignment: Final Project - Checkpoint 3
+ * Date last modified: May 29, 2017
  * 
  * Purpose: The chunk method generates N numbers of cubes to be rendered 
  *          onto the screen simultaneously in one call to the graphics 
@@ -185,6 +185,13 @@ public class Chunk {
         System.out.println("finished generating terrain");
     }
     
+    /**
+     * rebuildWithDiamonds:rebuilds mesh solely using diamond blocks
+     * 
+     * @param startX: starting x coordinate for chunk
+     * @param startY: starting y coordinate for chunk
+     * @param startZ: starting z coordinate for chunk
+     */
     public void rebuildWithDiamonds(float startX, float startY, float startZ) {
         noise = new SimplexNoise(20, 0.2, r.nextInt());   // using next int to generate random seed
         VBOColorHandle = glGenBuffers();
@@ -224,6 +231,13 @@ public class Chunk {
         glBindBuffer(GL_ARRAY_BUFFER, 0);
     }
     
+    
+    /**
+     * rebuildWithCaverns: Builds mesh with caverns under base terrain
+     * @param startX: starting x coordinate for chunk
+     * @param startY: starting y coordinate for chunk
+     * @param startZ: starting z coordinate for chunk
+     */
     public void rebuildWithCaverns(float startX, float startY, float startZ) {
         SimplexNoise baseNoise = new SimplexNoise(10, 0.15, r.nextInt());   // generating the base terrain for the cavern
         SimplexNoise cavNoise = new SimplexNoise(10, 0.2, r.nextInt());   // for generating empty space for the cavern
@@ -331,6 +345,8 @@ public class Chunk {
      * createCubeVertexCol: generates colors for our cubes, not used currently as
      *                      our cubes will have textures
      * 
+     *@param CubeColorArray
+     * @return : float array of cube colors
      */
     private float[] createCubeVertexCol(float[] CubeColorArray) {
         float[] cubeColors = new float[CubeColorArray.length * 4 * 6];
@@ -395,6 +411,11 @@ public class Chunk {
     /**
      * createTexCube: creates a textured cube which grabs the textures from the 
      *                texture map based on the provided offset
+     * 
+     * @param x: x location for cube
+     * @param y: y location for cube
+     * @param block: type of textured block
+     * @return float[]: cube in float[] form
      * 
      */
     public static float[] createTexCube(float x, float y, Block block) {

@@ -5,8 +5,8 @@ package edu.cpp.cs.cs445.danger_doge;
  * Authors: Tom Lundeberg, Daniel Gamboa, Kevin Grossi, & Isolde Alfaro
  * Class: CS 445 - Computer Graphics
  * 
- * Assignment: Final Project - Checkpoint 2
- * Date last modified: May 18, 2017
+ * Assignment: Final Project - Checkpoint 3
+ * Date last modified: May 29, 2017
  * 
  * Purpose: The camera class creates a single instance of the camera and 
  *          allows user to manipulate the camera's position.
@@ -249,6 +249,7 @@ public class Camera {
     
     /**
      * processKeyboard: Keyboard handler method; recomputes camera position based on user input
+     * Changes terrain to all diamonds or adds underground taverns to the terrain
      * 
      * @param camera: our camera
      * @param speed: movement speed of camera
@@ -278,11 +279,11 @@ public class Camera {
             camera.moveDown(speed);
         }  
         
-        if (Keyboard.isKeyDown(Keyboard.KEY_F2)){
+        if (Keyboard.isKeyDown(Keyboard.KEY_F1)){
             chunk.rebuildWithDiamonds(0, 0, 0);
         }  
         
-        if (Keyboard.isKeyDown(Keyboard.KEY_F1)){
+        if (Keyboard.isKeyDown(Keyboard.KEY_F2)){
             chunk.rebuildWithCaverns(0, 0, 0);
         } 
     }

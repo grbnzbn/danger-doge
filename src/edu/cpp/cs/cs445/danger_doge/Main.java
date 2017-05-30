@@ -5,8 +5,8 @@ package edu.cpp.cs.cs445.danger_doge;
  * Authors: Tom Lundeberg, Daniel Gamboa, Kevin Grossi, & Isolde Alfaro
  * Class: CS 445 - Computer Graphics
  * 
- * Assignment: Final Project - Checkpoint 2
- * Date last modified: May 18, 2017
+ * Assignment: Final Project - Checkpoint 3
+ * Date last modified: May 29, 2017
  * 
  * Purpose: The Main class initializes the window and OpenGL rendering and
  *          serves as the entry point for our program.
@@ -102,7 +102,7 @@ public class Main {
         }
         
         Display.setDisplayMode(displayMode);
-        Display.setTitle("Fill Polygon");
+        Display.setTitle("TEAM DANGER DOGE!!");
         Display.create();
     }
     

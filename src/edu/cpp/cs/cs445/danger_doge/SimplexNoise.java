@@ -5,7 +5,7 @@ package edu.cpp.cs.cs445.danger_doge;
  * Authors: Tony Diaz
  * Class: CS 445 - Computer Graphics
  * 
- * Assignment: Final Project - Checkpoint 2
+ * Assignment: Final Project
  * Date last modified: May 18, 2017
  * 
  * Purpose: Provided class, helps generate natural looking randomized terrain for our program
