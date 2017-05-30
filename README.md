@@ -13,17 +13,8 @@ by using the W, A, S, and D keys to move forward, left, backward, and right resp
 and the left shift key moves down, and the esc key closes the window.
 
 ### Check Point 2:
-Your program should still be able to do all from the above checkpoint. In addition to the above
-requirements your program should now be able to draw multiple cubes using our chunks method
-(creating a world at least 30 cubes x 30 cubes large), with each cube textured and then randomly placed
-using the simplex noise classes provided (Your terrain should be randomly placed each time you run the
-program but still appear to smoothly rise and fall as opposed to sudden mountains and valleys
-appearing). Finally, your program should have a minimum of 6 cube types defined with a different
-texture for each one as follows: Grass, sand, water, dirt, stone, and bedrock.
+For this checkpoint we implemented chunks of multiple textured cubes displaying the various types of terrain. Types of blocks include grass, sand, water dirt, stone and bedrock. The terrain slopes up and down.
+
 
 ### Final Check Point:
-Your program should still be able to do all from the above checkpoints. In addition to the above
-requirements your program should now be able to correctly place only grass, sand, or water at the
-topmost level of terrain, dirt, or stone at levels below the top, and bedrock at the very bottom of the
-generated terrain. A light source should be created that will leave half the world brightly lit and the other
-half dimly illuminated.
+For this checkpoint the terrain is ordered to have only grass, sand, and water on the topmost layers while dirt and stone remain at the bottom. The terrain can be moved to enter a brightly lit or dimly lit world.  More key functions re implemented with F1 creating a terrain of all diamonds and F2 generating a terrain with underground taverns.
