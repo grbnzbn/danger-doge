@@ -17,4 +17,4 @@ For this checkpoint we implemented chunks of multiple textured cubes displaying 
 
 
 ### Final Check Point:
-For this checkpoint the terrain is ordered to have only grass, sand, and water on the topmost layers while dirt and stone remain at the bottom. The terrain can be moved to enter a brightly lit or dimly lit world.  More key functions re implemented with F1 creating a terrain of all diamonds and F2 generating a terrain with underground taverns.
+For this checkpoint the terrain is ordered to have only grass, sand, and water on the topmost layers while dirt and stone remain at the bottom. The terrain can be moved to enter a brightly lit or dimly lit world.  More key functions are implemented with F1 creating a terrain of all diamonds and F2 generating a terrain with underground taverns.
